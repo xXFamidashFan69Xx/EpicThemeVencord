@@ -1,5 +1,5 @@
 # EpicThemeVencord
 
-just a silly lil purple theme
-
-yes i used the shardscapes by ItzKiba background for the icon
+A (NOT USABLE YET) simple dark purple theme.
+<hr>
+the background image used throughout the theme comes the Geometry Dash level "Shardscapes" by ItzKiba
