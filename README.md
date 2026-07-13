@@ -5,7 +5,7 @@
 
 
 <hr>
-A simple dark purple theme.
+A simple dark purple theme that I have fucking no idea why I created.
 <hr>
 
 >[!WARNING]
