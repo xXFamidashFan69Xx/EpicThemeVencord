@@ -86,7 +86,7 @@ div .appLauncherOnboardingCommandName_c19a55 {
 .root_bfe55a {
   /*vc background image*/
   background-color: rgba(0,0,0,0);
-  background-image: linear-gradient(to bottom,var(--custom-chat-image-tint-primary), var(--custom-chat-image-tint-secondary)), url("https://raw.githubusercontent.com/xXFamidashFan69Xx/EpicThemeVencord/refs/heads/main/background.png");
+  background-image: linear-gradient(to bottom,var(--custom-chat-image-tint-primary), var(--custom-chat-image-tint-secondary)), url("https://raw.githubusercontent.com/xXFamidashFan69Xx/EpicThemeVencord/refs/heads/main/background.webp");
   background-attachment: fixed;
   background-position: center;
 }
@@ -97,7 +97,7 @@ div .appLauncherOnboardingCommandName_c19a55 {
   visibility: hidden;
 }
 .chatContent_f75fb0 {
-  background-image: linear-gradient(to bottom,var(--custom-chat-image-tint-primary), var(--custom-chat-image-tint-secondary)), url("https://raw.githubusercontent.com/xXFamidashFan69Xx/EpicThemeVencord/refs/heads/main/background.png");
+  background-image: linear-gradient(to bottom,var(--custom-chat-image-tint-primary), var(--custom-chat-image-tint-secondary)), url("https://raw.githubusercontent.com/xXFamidashFan69Xx/EpicThemeVencord/refs/heads/main/background.webp");
   background-attachment: fixed;
   background-position: center;
 }
