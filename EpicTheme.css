@@ -4,7 +4,9 @@
  * @description this is stupid
  * @version alpha-07-08-26
  */
-
+:root {
+  --chat-background: none;
+}
 .theme-dark {
   /*primary accent*/
   --control-primary-background-default: rgb(206, 0, 168);
@@ -77,16 +79,16 @@ div .appLauncherOnboardingCommandName_c19a55 {
   /*the buttons in profile thingy*/
   background: #33133d;
 }
-.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8, .wrapper__6e9f8:hover .childWrapper__6e9f8{
-  /*dm icon*/
-  background-color: rgba(0,0,0,0);
-  background-size: 40px 40px;
-  background-image: url("https://github.com/xXFamidashFan69Xx/EpicThemeVencord/blob/main/discord_icon.webp?raw=true");
+.chatContent_f75fb0 {
+  /*chat background image*/
+  background-image: linear-gradient(to bottom,var(--custom-chat-image-tint-primary), var(--custom-chat-image-tint-secondary)), var(--chat-background);
+  background-attachment: fixed;
+  background-position: center;
 }
 .root_bfe55a {
   /*vc background image*/
   background-color: rgba(0,0,0,0);
-  background-image: linear-gradient(to bottom,var(--custom-chat-image-tint-primary), var(--custom-chat-image-tint-secondary)), url("https://raw.githubusercontent.com/xXFamidashFan69Xx/EpicThemeVencord/refs/heads/main/background.webp");
+  background-image: linear-gradient(to bottom,var(--custom-chat-image-tint-primary), var(--custom-chat-image-tint-secondary)), var(--chat-background);
   background-attachment: fixed;
   background-position: center;
 }
@@ -96,10 +98,10 @@ div .appLauncherOnboardingCommandName_c19a55 {
 .wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8 svg{
   visibility: hidden;
 }
-.chatContent_f75fb0 {
-  background-image: linear-gradient(to bottom,var(--custom-chat-image-tint-primary), var(--custom-chat-image-tint-secondary)), url("https://raw.githubusercontent.com/xXFamidashFan69Xx/EpicThemeVencord/refs/heads/main/background.webp");
-  background-attachment: fixed;
-  background-position: center;
+.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8, .wrapper__6e9f8:hover .childWrapper__6e9f8{
+  background-color: rgba(0,0,0,0);
+  background-size: 40px 40px;
+  background-image: url("https://github.com/xXFamidashFan69Xx/EpicThemeVencord/blob/main/discord_icon.webp?raw=true");
 }
 /*------------------*/
 

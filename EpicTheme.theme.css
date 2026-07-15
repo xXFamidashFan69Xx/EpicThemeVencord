@@ -7,4 +7,7 @@
 
 @import url(https://xxfamidashfan69xx.github.io/EpicThemeVencord/EpicTheme.css);
 
-/*i may or may not add customizability later*/
+:root {
+    --chat-background: url("https://raw.githubusercontent.com/xXFamidashFan69Xx/EpicThemeVencord/refs/heads/main/background.webp") !important;
+}
+/*i may or may not add more customizability later*/
