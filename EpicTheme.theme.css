@@ -1,0 +1,137 @@
+/**
+ * @name epic theme
+ * @author banana6000
+ * @description this is stupid
+ * @version alpha-07-08-26
+ */
+
+.theme-dark {
+  /*primary accent*/
+  --control-primary-background-default: rgb(206, 0, 168);
+  --custom-control-primary-background-default-dark: rgb(125, 0, 153);
+  --background-brand: rgb(203, 0, 156);
+  /*ui related*/
+  --interactive-icon-hover: rgb(255, 124, 224);
+  --icon-muted: rgb(201, 161, 190);
+  --text-muted: rgb(227, 137, 187);
+  --channel-icon: var(--icon-muted);
+  --interactive-text-default: rgb(190, 85, 207);
+  --icon-subtle: rgb(178, 86, 158);
+  --text-brand: rgb(255, 0, 195);
+  --scrollbar-auto-scrollbar-color-thumb: rgb(42, 25, 48);
+  --scrollbar-auto-scrollbar-color-track: rgb(21, 7, 26);
+  --card-background-default: rgb(54, 20, 62);
+  /*background colors*/
+  --background-base-lowest: rgb(34, 0, 48);
+  --background-base-lower: rgb(42, 1, 56);
+  --background-base-low: rgb(34, 16, 46);
+  --chat-background-default: var(--background-base-lowest);
+  --background-surface-high: rgb(57, 21, 67);
+  --background-surface-higher: rgb(50, 0, 56);
+  --custom-chat-image-tint-primary: rgba(82, 0, 112,0.5);
+  --custom-chat-image-tint-secondary: rgba(28, 0, 38, 0.9);
+  /*status colors*/
+  --status-online: rgb(0, 206, 165);
+  --status-danger: rgb(255, 0, 132);
+  --icon-voice-muted: var(--status-danger);
+  --control-connected-background-default: var(--status-online);
+  --custom-idle-color: rgb(255, 172, 94);
+  /*chat colors*/
+  --text-default: rgb(254, 236, 255);
+  --text-link: rgb(252, 3, 181);
+  --text-subtle: rgb(251, 126, 170);
+  --text-strong: rgb(255, 222, 244);
+  --channels-default: rgb(176, 83, 165);
+  --message-mentioned-background-default: rgba(255, 145, 173, 0.1);
+  --icon-feedback-warning: rgb(255, 116, 151);
+  --brand-500: rgb(191, 0, 221);
+  --message-highlight-background-default: rgba(158, 0, 221, 0.1);
+  --channel-text-area-placeholder: rgb(102, 0, 120);
+} /*added some custom variables here rather that :root just for organization sake*/
+
+/*----status colors----*/
+.pointerEvents__44b0c[fill="#da3e44"], .vc-platform-indicator[fill="#da3e44"] { /*DND*/
+    fill: var(--status-danger) !important;
+}
+.pointerEvents__44b0c[fill="#45a366"], .vc-platform-indicator[fill="#45a366"] { /*ONLINE*/
+    fill: var(--control-connected-background-default) !important;
+}
+.pointerEvents__44b0c[fill="#ffc04e"], .vc-platform-indicator[fill="#ffc04e"] { /*IDLE*/
+    fill: var(--custom-idle-color) !important;
+}
+/*---------------------*/
+
+/*----change some colors that didnt look good with default variables----*/
+/*the tag besides a bot name (pretty self explanatory)*/
+.botTag__5d473 {
+  background: var(--icon-feedback-warning);
+}
+/*ngl i forgot*/
+div .appLauncherOnboardingCommandName_c19a55 {
+  background-color: var(--message-mentioned-background-default) !important;
+}
+/*----------------------------------------------------------------------*/
+
+/*----other----*/
+.overlay_c0bea0 {
+  /*the buttons in profile thingy*/
+  background: #33133d;
+}
+.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8, .wrapper__6e9f8:hover .childWrapper__6e9f8{
+  /*dm icon*/
+  background-color: rgba(0,0,0,0);
+  background-size: 40px 40px;
+  background-image: url("https://github.com/xXFamidashFan69Xx/EpicThemeVencord/blob/main/discord_icon.webp?raw=true");
+}
+.root_bfe55a {
+  /*vc background image*/
+  background-color: rgba(0,0,0,0);
+  background-image: linear-gradient(to bottom,var(--custom-chat-image-tint-primary), var(--custom-chat-image-tint-secondary)), url("https://raw.githubusercontent.com/xXFamidashFan69Xx/EpicThemeVencord/refs/heads/main/background.png");
+  background-attachment: fixed;
+  background-position: center;
+}
+/*-------------*/
+
+/*---custom icon----*/
+.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8 svg{
+  visibility: hidden;
+}
+.chatContent_f75fb0 {
+  background-image: linear-gradient(to bottom,var(--custom-chat-image-tint-primary), var(--custom-chat-image-tint-secondary)), url("https://raw.githubusercontent.com/xXFamidashFan69Xx/EpicThemeVencord/refs/heads/main/background.png");
+  background-attachment: fixed;
+  background-position: center;
+}
+/*------------------*/
+
+/*----gradient border on select----*/
+.selected_f88cfd, .selectedChannel_c69b6d, .modeSelected__2ea32, .selected__91a9d {
+    border-radius: 8px;
+    position: relative;
+}
+.selected_f88cfd::before, .selectedChannel_c69b6d::before, .modeSelected__2ea32::before, .selected__91a9d::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 2px;
+  background: linear-gradient(to bottom, var(--control-primary-background-default), var(--custom-control-primary-background-default-dark));
+  border-radius: inherit;
+  mask: conic-gradient(#000) content-box exclude,conic-gradient(#000);;
+}
+/*---------------------------------*/
+
+/*----outline on the server icon didnt work D:----*/
+.item__58105 {
+  background: linear-gradient(to bottom, var(--control-primary-background-default), var(--custom-control-primary-background-default-dark));
+}
+/*------------------------------------------------*/
+
+/*----(SCRAPPED) make icons scare----*/
+/*
+.mask__44b0c.svg__44b0c foreignObject{
+  mask-image: none;
+}
+.avatar__44b0c{
+  width: 100%;
+  height: 100%;
+  border-radius: 20%;
+}
