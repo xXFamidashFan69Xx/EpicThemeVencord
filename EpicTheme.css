@@ -91,6 +91,7 @@ div .appLauncherOnboardingCommandName_c19a55 {
   background-image: linear-gradient(to bottom,var(--custom-chat-image-tint-primary), var(--custom-chat-image-tint-secondary)), var(--chat-background);
   background-attachment: fixed;
   background-position: center;
+  object-fit: cover;
 }
 .root_bfe55a {
   /*vc background image*/
