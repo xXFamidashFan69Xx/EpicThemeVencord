@@ -82,9 +82,6 @@ div .appLauncherOnboardingCommandName_c19a55 {
 /*----------------------------------------------------------------------*/
 
 /*----other----*/
-.channelTextArea__74017 {
-  background: linear-gradient(to bottom, var(--text-strong), var(--custom-control-primary-background-default-dark));
-}
 .overlay_c0bea0 {
   /*the buttons in profile thingy*/
   background: #33133d;
@@ -116,11 +113,11 @@ div .appLauncherOnboardingCommandName_c19a55 {
 /*------------------*/
 
 /*----gradient border on select----*/
-.selected_f88cfd, .selectedChannel_c69b6d, .modeSelected__2ea32, .selected__91a9d {
+.selected_f88cfd, .selectedChannel_c69b6d, .modeSelected__2ea32, .selected__91a9d, .channelTextArea_f75fb0:focus-within {
     border-radius: 8px;
     position: relative;
 }
-.selected_f88cfd::before, .selectedChannel_c69b6d::before, .modeSelected__2ea32::before, .selected__91a9d::before {
+.selected_f88cfd::before, .selectedChannel_c69b6d::before, .modeSelected__2ea32::before, .selected__91a9d::before, .channelTextArea_f75fb0:focus-within::before {
   content: "";
   position: absolute;
   inset: 0;
