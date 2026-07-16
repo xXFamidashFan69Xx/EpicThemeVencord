@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-  --chat-background: "https://raw.githubusercontent.com/xXFamidashFan69Xx/EpicThemeVencord/refs/heads/main/background.webp";
+  --chat-background: url("https://raw.githubusercontent.com/xXFamidashFan69Xx/EpicThemeVencord/refs/heads/main/background.webp");
   --font-primary: "Roboto", sans-serif;
 }
 .theme-dark {
