@@ -82,6 +82,9 @@ div .appLauncherOnboardingCommandName_c19a55 {
 /*----------------------------------------------------------------------*/
 
 /*----other----*/
+.switchIndicator_a28278[fill="#5865f2"] {
+  background-color: var(--control-primary-background-default);
+}
 .overlay_c0bea0 {
   /*the buttons in profile thingy*/
   background: #33133d;
