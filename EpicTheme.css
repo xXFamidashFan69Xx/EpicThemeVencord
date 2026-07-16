@@ -2,7 +2,7 @@
  * @name epic theme
  * @author banana6000
  * @description this is stupid
- * @version alpha-07-08-26
+ * @version fkhghugbhyl..ighgñhuojhnhjuhnu
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
@@ -130,7 +130,7 @@ div .appLauncherOnboardingCommandName_c19a55 {
 
 /*----outline on the server icon didnt work D:----*/
 .item__58105 {
-  background: linear-gradient(to bottom, var(--text-subtle), var(--channels-default));
+  background: linear-gradient(to bottom, var(--text-strong), var(--control-primary-background-default));
 }
 /*------------------------------------------------*/
 
