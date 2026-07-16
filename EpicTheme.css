@@ -82,6 +82,9 @@ div .appLauncherOnboardingCommandName_c19a55 {
 /*----------------------------------------------------------------------*/
 
 /*----other----*/
+.channelTextArea__74017 {
+  background: linear-gradient(to bottom, var(--text-strong), var(--custom-control-primary-background-default-dark));
+}
 .overlay_c0bea0 {
   /*the buttons in profile thingy*/
   background: #33133d;
