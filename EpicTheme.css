@@ -4,8 +4,12 @@
  * @description this is stupid
  * @version alpha-07-08-26
  */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 :root {
   --chat-background: none;
+  --font-primary: "Rubik", sans-serif;
 }
 .theme-dark {
   /*primary accent*/
@@ -50,6 +54,9 @@
   --message-highlight-background-default: rgba(158, 0, 221, 0.1);
   --channel-text-area-placeholder: rgb(102, 0, 120);
 } /*added some custom variables here rather that :root just for organization sake*/
+.subtitleContainer_f75fb0 {
+  background: linear-gradient(to bottom,var(--custom-chat-image-tint-primary), var(--custom-chat-image-tint-secondary));
+}
 
 /*----status colors----*/
 .pointerEvents__44b0c[fill="#da3e44"], .vc-platform-indicator[fill="#da3e44"] { /*DND*/
