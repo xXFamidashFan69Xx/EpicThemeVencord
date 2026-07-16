@@ -9,7 +9,7 @@ A simple dark purple theme that I have fucking no idea why I created.
 <hr>
 
 >[!WARNING]
->This theme is far from finished, this page currently exists purely to host assets being used during development and the theme itself will be released later when its finished.
+>This theme is kinda finished.
 
 <hr>
 <div>
