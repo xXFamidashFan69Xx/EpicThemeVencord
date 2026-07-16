@@ -130,7 +130,7 @@ div .appLauncherOnboardingCommandName_c19a55 {
 
 /*----outline on the server icon didnt work D:----*/
 .item__58105 {
-  background: linear-gradient(to bottom, var(--control-primary-background-default), var(--custom-control-primary-background-default-dark));
+  background: linear-gradient(to bottom, var(--text-default), var(--text-subtle));
 }
 /*------------------------------------------------*/
 
