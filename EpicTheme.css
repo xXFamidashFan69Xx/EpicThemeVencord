@@ -53,6 +53,7 @@
   --brand-500: rgb(191, 0, 221);
   --message-highlight-background-default: rgba(158, 0, 221, 0.1);
   --channel-text-area-placeholder: rgb(102, 0, 120);
+  --chat-text-muted: rgb(143, 73, 155);
 } /*added some custom variables here rather that :root just for organization sake*/
 .subtitleContainer_f75fb0 {
   background: linear-gradient(to bottom,var(--custom-chat-image-tint-primary), var(--custom-chat-image-tint-secondary));
