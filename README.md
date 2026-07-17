@@ -15,5 +15,7 @@ A simple dark purple theme that I have fucking no idea why I created.
 <div>
   <h2>Credits:</h2>
   <p>Background image used throughout the theme comes the Geometry Dash level <a href="https://www.youtube.com/watch?v=2njKGrzPmVY">Shardscapes</a> by <a href="https://gdbrowser.com/u/itzkiba">ItzKiba</a></p>
+  <h2>Web version</h2>
+  <p>A web version of this theme can be found <a href="https://userstyles.world/style/29140/bananasepictheme">here</a></p>
 </div>
 
