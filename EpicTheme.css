@@ -14,6 +14,9 @@
 .theme-dark {
   /*primary accent*/
   --control-primary-background-default: rgb(206, 0, 168);
+  --control-primary-background-hover: rgb(138, 0, 149);
+  --control-primary-background-active: rgb(104, 0, 76);
+  --opacity-blurple-16: rgb(206 0 168 / .2);
   --custom-control-primary-background-default-dark: rgb(125, 0, 153);
   --background-brand: rgb(203, 0, 156);
   /*ui related*/
@@ -27,6 +30,7 @@
   --scrollbar-auto-scrollbar-color-thumb: rgb(42, 25, 48);
   --scrollbar-auto-scrollbar-color-track: rgb(21, 7, 26);
   --card-background-default: rgb(54, 20, 62);
+  --input-placeholder-text-default: rgb(126, 69, 136);
   /*background colors*/
   --background-base-lowest: rgb(34, 0, 48);
   --background-base-lower: rgb(42, 1, 56);
@@ -34,7 +38,7 @@
   --chat-background-default: var(--background-base-lowest);
   --background-surface-high: rgb(57, 21, 67);
   --background-surface-higher: rgb(50, 0, 56);
-  --custom-chat-image-tint-primary: rgba(82, 0, 112,0.5);
+  --custom-chat-image-tint-primary: rgba(82, 0, 112, 0.5);
   --custom-chat-image-tint-secondary: rgba(28, 0, 38, 0.9);
   /*status colors*/
   --status-online: rgb(0, 206, 165);
@@ -117,11 +121,11 @@ div .appLauncherOnboardingCommandName_c19a55 {
 /*------------------*/
 
 /*----gradient border on select----*/
-.selected_f88cfd, .selectedChannel_c69b6d, .modeSelected__2ea32, .selected__91a9d, .channelTextArea_f75fb0:focus-within {
+.selected_f88cfd, .selectedChannel_c69b6d, .modeSelected__2ea32, .selected__91a9d, .channelTextArea_f75fb0:focus-within, .wrapper__72c38:focus-within, .active_caf372 {
     border-radius: 8px;
     position: relative;
 }
-.selected_f88cfd::before, .selectedChannel_c69b6d::before, .modeSelected__2ea32::before, .selected__91a9d::before, .channelTextArea_f75fb0:focus-within::before {
+.selected_f88cfd::before, .selectedChannel_c69b6d::before, .modeSelected__2ea32::before, .selected__91a9d::before, .channelTextArea_f75fb0:focus-within::before, .wrapper__72c38:focus-within::before, .active_caf372::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -137,6 +141,13 @@ div .appLauncherOnboardingCommandName_c19a55 {
   background: linear-gradient(to bottom, var(--text-strong), var(--custom-control-primary-background-default-dark));
 }
 /*------------------------------------------------*/
+
+/*----frosted glass bg----*/
+.modal_e44912, .content_e9e3ed, .contentHeader_e9e3ed, .root__49fc1, .footer__49fc1 {
+    background: rgba(34, 0, 49, .1);
+    backdrop-filter: blur(8px);
+}
+/*------------------------*/
 
 /*----(SCRAPPED) make icons scare----*/
 /*
