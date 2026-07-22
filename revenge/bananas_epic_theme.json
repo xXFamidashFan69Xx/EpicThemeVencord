@@ -1,0 +1,37 @@
+{
+    "name": "Bananas Epic Theme",
+    "description": "stupid dark purple with pink theme, background taken from Geometry Dash level «Shardscapes» by ItzKiba",
+    "authors": [
+        {
+        "name": "Banana6000",
+        "id": "980544625301414018"
+        }
+    ],
+    "spec": 2,
+    "semanticColors": {
+        "BACKGROUND_BASE_LOWEST": [
+            "#220030"
+        ],
+        "BACKGROUND_BASE_LOWER": [
+            "#2a0138"
+        ],
+        "BACKGROUND_BASE_LOW": [
+            "#22102e"
+        ],
+        "BACKGROUND_BRAND": [
+            "#cb009c"
+        ],
+        "BACKGROUND_SURFACE_HIGH": [
+            "#ce00a8"
+        ],
+        "BG_SURFACE_OVERLAY_TMP": [
+            "#391543"
+        ]
+    },
+    "rawColors": {
+
+    },
+    "background": {
+
+    }
+}
