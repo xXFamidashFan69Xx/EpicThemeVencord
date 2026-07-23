@@ -61,6 +61,6 @@
     "background": {
         "blur": 0,
         "url": "https://cdn.discordapp.com/attachments/1529649970045653102/1529650241656328222/background.png",
-        "alpha": 1
+        "alpha": 0.5
     }
 }
