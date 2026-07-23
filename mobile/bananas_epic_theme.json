@@ -26,10 +26,22 @@
         ],
         "BG_SURFACE_OVERLAY_TMP": [
             "#391543"
+        ],
+        "BACKGROUND_ACCENT": [
+            "#fb7eaa"
+        ],
+        "TEXT_DEFAULT": [
+            "#ffdef4"
+        ],
+        "TEXT_STRONG": [
+            "#feecff"
+        ],
+        "TEXT_MUTED": [
+            "#fb7eaa"
         ]
     },
     "rawColors": {
-
+        "PLUM_20": "#2a0138"
     },
     "background": {
 
