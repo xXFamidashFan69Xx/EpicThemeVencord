@@ -59,6 +59,8 @@
         "PLUM_20": "#2a0138"
     },
     "background": {
-
+        "blur": 0,
+        "url": "https://github.com/xXFamidashFan69Xx/EpicThemeVencord/blob/main/background.webp",
+        "alpha": 0.5
     }
 }
