@@ -38,6 +38,21 @@
         ],
         "TEXT_SUBTLE": [
             "#fb7eaa"
+        ],
+        "TEXT_LINK": [
+            "#fc03b5"
+        ],
+        "TEXT_MUTED": [
+            "#8f499b"
+        ],
+        "TEXT_FEEDBACK_CRITICAL": [
+            "#ff0084"
+        ],
+        "TEXT_STATUS_DND": [
+            "#ff0084"
+        ],
+        "REDESIGN_CHANNEL_NAME_TEXT": [
+            "#ffdbf5"
         ]
     },
     "rawColors": {
