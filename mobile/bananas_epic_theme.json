@@ -62,6 +62,9 @@
         ],
         "MOBILE_TEXT_HEADING_PRIMARY": [
             "#ffdef4"
+        ],
+        "CARD_SECONDARY_BG": [
+            "#391543"
         ]
     },
     "rawColors": {
