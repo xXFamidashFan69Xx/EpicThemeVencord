@@ -30,6 +30,12 @@
         "BACKGROUND_ACCENT": [
             "#fb7eaa"
         ],
+        "MESSAGE_MENTIONED_BACKGROUND_DEFAULT": [
+            "#ff91ad"
+        ],
+        "MOBILE_ANDROID_BUTTON_BACKGROUND_RIPPLE": [
+            "#ff91ad"
+        ],
         "TEXT_DEFAULT": [
             "#ffdef4"
         ],
@@ -53,10 +59,15 @@
         ],
         "REDESIGN_CHANNEL_NAME_TEXT": [
             "#ffdbf5"
+        ],
+        "MOBILE_TEXT_HEADING_PRIMARY": [
+            "#ffdef4"
         ]
     },
     "rawColors": {
-        "PLUM_20": "#2a0138"
+        "PLUM_20": "#2a0138",
+        "PLUM_15": "#2a2147",
+        "GREEN_360": "#00cea5"
     },
     "background": {
         "blur": 0,
