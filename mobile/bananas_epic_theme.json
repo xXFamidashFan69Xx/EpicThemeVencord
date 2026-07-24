@@ -49,10 +49,7 @@
             "rgb(252, 3, 181)"
         ],
         "TEXT_MUTED": [
-            "rgb(0, 255, 0)"
-        ],
-        "TEXT_LOW_CONTRAST": [
-            "rgb(0, 255, 0)"
+            "rgb(143, 73, 155)"
         ],
         "TEXT_FEEDBACK_CRITICAL": [
             "rgb(255, 0, 132)"
@@ -74,7 +71,7 @@
         ]
     },
     "rawColors": {
-        "PLUM_10": "rgb(251, 126, 170)",
+        "PLUM_10": "rgb(0,0,0)",
         "PLUM_20": "rgb(42, 1, 56)",
         "PLUM_15": "rgb(255, 116, 151)",
         "GREEN_360": "rgb(0, 206, 165)"
