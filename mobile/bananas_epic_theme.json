@@ -10,71 +10,74 @@
     "spec": 2,
     "semanticColors": {
         "BACKGROUND_BASE_LOWEST": [
-            "#220030"
+            "rgb(34, 0, 48)"
         ],
         "BACKGROUND_BASE_LOWER": [
-            "#2a0138"
+            "rgb(42, 1, 56)"
         ],
         "BACKGROUND_BASE_LOW": [
-            "#22102e"
+            "rgb(34, 16, 46)"
         ],
         "BACKGROUND_BRAND": [
-            "#cb009c"
+            "rgb(203, 0, 156)"
         ],
         "BACKGROUND_SURFACE_HIGH": [
-            "#ce00a8"
+            "rgb(57, 21, 67)"
         ],
         "BG_SURFACE_OVERLAY_TMP": [
-            "#391543"
+            "rgb(34, 0, 48)"
         ],
         "BACKGROUND_ACCENT": [
-            "#fb7eaa"
+            "rgb(206, 0, 168)"
         ],
         "MESSAGE_MENTIONED_BACKGROUND_DEFAULT": [
-            "#ff91ad1a"
+            "rgba(255, 145, 173, 0.1)"
         ],
         "MOBILE_ANDROID_BUTTON_BACKGROUND_RIPPLE": [
-            "#ff91ad"
+            "rgba(255, 124, 224, 0.5)"
         ],
         "TEXT_DEFAULT": [
-            "#ffdef4"
+            "rgb(255, 222, 244);"
         ],
         "TEXT_STRONG": [
-            "#feecff"
+            "rgb(254, 236, 255)"
         ],
         "TEXT_SUBTLE": [
-            "#fb7eaa"
+            "rgb(251, 126, 170)"
         ],
         "TEXT_LINK": [
-            "#fc03b5"
+            "rgb(252, 3, 181)"
         ],
         "TEXT_MUTED": [
-            "#8f499b"
+            "rgb(143, 73, 155)"
         ],
         "TEXT_FEEDBACK_CRITICAL": [
-            "#ff0084"
+            "rgb(255, 0, 132)"
         ],
         "TEXT_STATUS_DND": [
-            "#ff0084"
+            "rgb(255, 0, 132)"
         ],
         "REDESIGN_CHANNEL_NAME_TEXT": [
-            "#ffdbf5"
+            "rgb(255, 116, 151)"
         ],
         "MOBILE_TEXT_HEADING_PRIMARY": [
-            "#ffdef4"
+            "rgb(227, 137, 187)"
         ],
         "CARD_SECONDARY_BG": [
-            "#391543"
+            "rgb(54, 20, 62)"
+        ],
+        "BORDER_MUTED": [
+            "rgb(206, 0, 168)"
         ]
     },
     "rawColors": {
-        "PLUM_20": "#2a0138",
-        "PLUM_15": "#2a2147",
-        "GREEN_360": "#00cea5"
+        "PLUM_20": "rgb(42, 1, 56)",
+        "PLUM_15": "rgb(255, 116, 151)",
+        "GREEN_360": "rgb(0, 206, 165)"
     },
     "background": {
         "blur": 0,
-        "url": "https://i.imgur.com/HBM4749.png",
-        "alpha": 0.5
+        "url": "https://raw.githubusercontent.com/xXFamidashFan69Xx/EpicThemeVencord/refs/heads/dev/mobile/background_m.png",
+        "alpha": 1
     }
 }
