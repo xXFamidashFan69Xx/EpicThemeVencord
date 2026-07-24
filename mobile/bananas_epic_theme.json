@@ -43,13 +43,13 @@
             "rgb(254, 236, 255)"
         ],
         "TEXT_SUBTLE": [
-            "rgb(143, 73, 155)"
+            "rgb(251, 126, 170)"
         ],
         "TEXT_LINK": [
             "rgb(252, 3, 181)"
         ],
         "TEXT_MUTED": [
-            "rgb(251, 126, 170)"
+            "rgb(143, 73, 155)"
         ],
         "TEXT_FEEDBACK_CRITICAL": [
             "rgb(255, 0, 132)"
