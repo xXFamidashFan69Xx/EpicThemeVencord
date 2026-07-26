@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-  --chat-background: url("https://raw.githubusercontent.com/xXFamidashFan69Xx/EpicThemeVencord/refs/heads/main/background.webp");
+  --chat-background-url: url("https://raw.githubusercontent.com/xXFamidashFan69Xx/EpicThemeVencord/refs/heads/main/background.webp");
   --font-primary: "Roboto", sans-serif;
 }
 .theme-dark {
@@ -96,16 +96,17 @@ div .appLauncherOnboardingCommandName_c19a55 {
 }
 .chatContent_f75fb0 {
   /*chat background image*/
-  background-image: linear-gradient(to bottom,var(--custom-chat-image-tint-primary), var(--custom-chat-image-tint-secondary)), var(--chat-background);
+  background-image: linear-gradient(to bottom,var(--custom-chat-image-tint-primary), var(--custom-chat-image-tint-secondary)), var(--chat-background-url);
   background-attachment: fixed;
   background-position: center;
+  background-size: cover;
 }
 .root_bfe55a {
   /*vc background image*/
-  background: #fff;
-  background-image: linear-gradient(to bottom,var(--custom-chat-image-tint-primary), var(--custom-chat-image-tint-secondary)), var(--chat-background);
+  background-image: linear-gradient(to bottom,var(--custom-chat-image-tint-primary), var(--custom-chat-image-tint-secondary)), var(--chat-background-url);
   background-attachment: fixed;
   background-position: center;
+  background-size: cover;
 }
 /*-------------*/
 
