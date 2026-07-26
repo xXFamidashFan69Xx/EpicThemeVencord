@@ -43,13 +43,13 @@
             "rgb(254, 236, 255)"
         ],
         "TEXT_SUBTLE": [
-            "rgb(251, 126, 170)"
+            "rgb(143, 73, 155)"
         ],
         "TEXT_LINK": [
             "rgb(252, 3, 181)"
         ],
         "TEXT_MUTED": [
-            "rgb(143, 73, 155)"
+            "rgb(251, 126, 170)"
         ],
         "TEXT_FEEDBACK_CRITICAL": [
             "rgb(255, 0, 132)"
@@ -60,8 +60,11 @@
         "REDESIGN_CHANNEL_NAME_TEXT": [
             "rgb(255, 189, 226)"
         ],
+        "REDESIGN_BUTTON_SECONDARY_BACKGROUND": [
+            "rgb(125, 0, 153)"
+        ],
         "MOBILE_TEXT_HEADING_PRIMARY": [
-            "rgb(57, 21, 67)"
+            "rgb(227, 137, 187)"
         ],
         "CARD_SECONDARY_BG": [
             "rgb(54, 20, 62)"
