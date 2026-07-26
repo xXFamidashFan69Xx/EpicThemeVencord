@@ -126,6 +126,7 @@ div .appLauncherOnboardingCommandName_c19a55 {
     position: relative;
 }
 .selected_f88cfd::before, .selectedChannel_c69b6d::before, .modeSelected__2ea32::before, .selected__91a9d::before, .channelTextArea_f75fb0:focus-within::before, .wrapper__72c38:focus-within::before, .active_caf372::before {
+  pointer-events: none; /*im stupid lmao*/
   content: "";
   position: absolute;
   inset: 0;
