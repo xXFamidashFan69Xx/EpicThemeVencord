@@ -8,6 +8,8 @@
 @import url("https://raw.githubusercontent.com/xXFamidashFan69Xx/EpicThemeVencord/refs/heads/main/EpicTheme.css");
 
 :root {
-    --chat-background: url("https://raw.githubusercontent.com/xXFamidashFan69Xx/EpicThemeVencord/refs/heads/main/background.webp") !important;
+    --chat-background-url: url("https://raw.githubusercontent.com/xXFamidashFan69Xx/EpicThemeVencord/refs/heads/main/background.webp") !important;
+    --frosted-glass-blur: 8px !important;
+    --frosted-glass-transparency: 0.1 !important;
 }
 /*i may or may not add more customizability later*/

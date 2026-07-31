@@ -10,16 +10,19 @@
 :root {
   --chat-background-url: url("https://raw.githubusercontent.com/xXFamidashFan69Xx/EpicThemeVencord/refs/heads/main/background.webp");
   --font-primary: "Roboto", sans-serif;
+  --frosted-glass-blur: 8px;
+  --frosted-glass-transparency: 0.1;
 }
+/*----main variables changes + some new ones----*/
 .theme-dark {
-  /*primary accent*/
+    /*primary accent*/
   --control-primary-background-default: rgb(206, 0, 168);
   --control-primary-background-hover: rgb(138, 0, 149);
   --control-primary-background-active: rgb(104, 0, 76);
   --opacity-blurple-16: rgb(206 0 168 / .2);
   --custom-control-primary-background-default-dark: rgb(125, 0, 153);
   --background-brand: rgb(203, 0, 156);
-  /*ui related*/
+    /*ui related*/
   --interactive-icon-hover: rgb(255, 124, 224);
   --icon-muted: rgb(201, 161, 190);
   --text-muted: rgb(227, 137, 187);
@@ -31,7 +34,7 @@
   --scrollbar-auto-scrollbar-color-track: rgb(21, 7, 26);
   --card-background-default: rgb(54, 20, 62);
   --input-placeholder-text-default: rgb(126, 69, 136);
-  /*background colors*/
+    /*background colors*/
   --background-base-lowest: rgb(34, 0, 48);
   --background-base-lower: rgb(42, 1, 56);
   --background-base-low: rgb(34, 16, 46);
@@ -40,13 +43,13 @@
   --background-surface-higher: rgb(50, 0, 56);
   --custom-chat-image-tint-primary: rgba(82, 0, 112, 0.5);
   --custom-chat-image-tint-secondary: rgba(28, 0, 38, 0.9);
-  /*status colors*/
+    /*status colors*/
   --status-online: rgb(0, 206, 165);
   --status-danger: rgb(255, 0, 132);
   --icon-voice-muted: var(--status-danger);
   --control-connected-background-default: var(--status-online);
   --custom-idle-color: rgb(255, 172, 94);
-  /*chat colors*/
+    /*chat colors*/
   --text-default: rgb(254, 236, 255);
   --text-link: rgb(252, 3, 181);
   --text-subtle: rgb(251, 126, 170);
@@ -58,29 +61,31 @@
   --message-highlight-background-default: rgba(158, 0, 221, 0.1);
   --channel-text-area-placeholder: rgb(102, 0, 120);
   --chat-text-muted: rgb(143, 73, 155);
-} /*added some custom variables here rather that :root just for organization sake*/
+}
 .subtitleContainer_f75fb0 {
   background: linear-gradient(to bottom,var(--custom-chat-image-tint-primary), var(--custom-chat-image-tint-secondary));
 }
-
-/*----status colors----*/
-.pointerEvents__44b0c[fill="#da3e44"], .vc-platform-indicator[fill="#da3e44"] { /*DND*/
-    fill: var(--status-danger) !important;
+/*----status-colors----*/
+  /*ONLINE*/
+.pointerEvents__44b0c[fill="#da3e44"], svg path[fill="#45a366"], svg[fill="#45a366"] {
+    fill: var(--status-online);
 }
-.pointerEvents__44b0c[fill="#45a366"], .vc-platform-indicator[fill="#45a366"] { /*ONLINE*/
-    fill: var(--control-connected-background-default) !important;
+  /*DND*/
+.pointerEvents__44b0c[fill="#45a366"], svg path[fill="#da3e44"], svg[fill="#da3e44"] {
+    fill: var(--status-danger);
 }
-.pointerEvents__44b0c[fill="#ffc04e"], .vc-platform-indicator[fill="#ffc04e"] { /*IDLE*/
-    fill: var(--custom-idle-color) !important;
+  /*IDLE*/
+.pointerEvents__44b0c[fill="#ffc04e"], svg path[fill="#ffc04e"], svg[fill="#ffc04e"] {
+    fill: var(--custom-idle-color);
 }
 /*---------------------*/
 
 /*----change some colors that didnt look good with default variables----*/
-/*the tag besides a bot name (pretty self explanatory)*/
+  /*the tag besides a bot name (pretty self explanatory)*/
 .botTag__5d473 {
   background: var(--icon-feedback-warning);
 }
-/*ngl i forgot*/
+  /*ngl i forgot*/
 div .appLauncherOnboardingCommandName_c19a55 {
   background-color: var(--message-mentioned-background-default) !important;
 }
@@ -90,19 +95,19 @@ div .appLauncherOnboardingCommandName_c19a55 {
 .switchIndicator_a28278[fill="#5865f2"] {
   background-color: var(--control-primary-background-default);
 }
-.overlay_c0bea0 {
   /*the buttons in profile thingy*/
+.overlay_c0bea0 {
   background: #33133d;
 }
-.chatContent_f75fb0 {
   /*chat background image*/
+.chatContent_f75fb0 {
   background-image: linear-gradient(to bottom,var(--custom-chat-image-tint-primary), var(--custom-chat-image-tint-secondary)), var(--chat-background-url);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
-.root_bfe55a {
   /*vc background image*/
+.root_bfe55a {
   background-image: linear-gradient(to bottom,var(--custom-chat-image-tint-primary), var(--custom-chat-image-tint-secondary)), var(--chat-background-url);
   background-attachment: fixed;
   background-position: center;
@@ -146,12 +151,11 @@ div .appLauncherOnboardingCommandName_c19a55 {
 
 /*----frosted glass bg----*/
 .modal_e44912, .content_e9e3ed, .contentHeader_e9e3ed, .root__49fc1, .footer__49fc1 {
-    background: rgba(34, 0, 49, .1);
-    backdrop-filter: blur(8px);
+    background: rgba(34, 0, 49, var(--frosted-glass-transparency));
+    backdrop-filter: blur(var(--frosted-glass-blur));
 }
 /*------------------------*/
 
-/*----(SCRAPPED) make icons scare----*/
 /*
 .mask__44b0c.svg__44b0c foreignObject{
   mask-image: none;
@@ -160,4 +164,4 @@ div .appLauncherOnboardingCommandName_c19a55 {
   width: 100%;
   height: 100%;
   border-radius: 20%;
-}*/
+}
