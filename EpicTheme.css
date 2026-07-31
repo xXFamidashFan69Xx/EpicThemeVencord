@@ -63,6 +63,10 @@
   --channel-text-area-placeholder: rgb(102, 0, 120);
   --chat-text-muted: rgb(143, 73, 155);
 }
+/*mmmhhhh*/
+.visual-refresh {
+  --green-360: var(--status-online);
+}
 .subtitleContainer_f75fb0 {
   background: linear-gradient(to bottom,var(--custom-chat-image-tint-primary), var(--custom-chat-image-tint-secondary));
 }
