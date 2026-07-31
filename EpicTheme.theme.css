@@ -7,18 +7,26 @@
  * @website https://github.com/xXFamidashFan69Xx/EpicThemeVencord/
  */
 
+ /*[REMEMBER]
+  *     If you encounter any issues or have suggestions PLEASE open an issue on GitHub thanks.
+  */
+    /*[IMAGE BACKGROUND]*/
 @import url("https://raw.githubusercontent.com/xXFamidashFan69Xx/EpicThemeVencord/refs/heads/main/EpicTheme.css");
-    /*Remove comment from bottom line and add to top line to switch to the dev branch*/
-/*@import url("https://raw.githubusercontent.com/xXFamidashFan69Xx/EpicThemeVencord/refs/heads/dev/EpicTheme.css");*/
+    /*Replace 'main' with 'dev' or viceversa to switch between developer and release branch respectively*/
 
 :root {
-    /*SETTINGS*/
-        /*imgur and GitHub are reccommended to avoid issues, just get a raw link and paste it in (if I didnt mess up of course contact me if it doesn't please)*/
-            /*Default value: url("https://raw.githubusercontent.com/xXFamidashFan69Xx/EpicThemeVencord/refs/heads/main/background.webp")*/
+    /*[SETTINGS]*/
+        /*imgur and GitHub are reccommended to avoid issues, just get a raw link and paste it in (if I didnt mess up of course contact me if it doesn't please)
+         *    Default value: url("https://raw.githubusercontent.com/xXFamidashFan69Xx/EpicThemeVencord/refs/heads/main/background.webp")*/
     --chat-background-url: url("https://raw.githubusercontent.com/xXFamidashFan69Xx/EpicThemeVencord/refs/heads/main/background.webp") !important;
-        /*Change how blurry the background is*/
+        /*Change how blurry the background is
+         *    Default value: 8px*/
     --frosted-glass-blur: 8px !important;
-        /*Set to 1 if you dont want people to see your chat through popups*/
+        /*Set to 1 if you dont want people to see your chat through popups
+         *    Default value: 0.1*/
     --frosted-glass-transparency: 0.1 !important;
+        /*Use a font installed in your system rather other than 'Roboto'
+         *    Default value: "Roboto", sans-serif;*/
+    --font-primary: "Roboto", sans-serif !important;
 }
 /*i may or may not add more customizability later*/
