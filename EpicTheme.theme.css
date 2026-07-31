@@ -2,7 +2,7 @@
  * @name epic theme
  * @author banana6000
  * @description this is stupid and purple
- * @version release-071526
+ * @version release-073026
  * @authorId 980544625301414018
  * @website https://github.com/xXFamidashFan69Xx/EpicThemeVencord/
  */
@@ -14,6 +14,7 @@
 :root {
     /*SETTINGS*/
         /*imgur and GitHub are reccommended to avoid issues, just get a raw link and paste it in (if I didnt mess up of course contact me if it doesn't please)*/
+            /*Default value: url("https://raw.githubusercontent.com/xXFamidashFan69Xx/EpicThemeVencord/refs/heads/main/background.webp")*/
     --chat-background-url: url("https://raw.githubusercontent.com/xXFamidashFan69Xx/EpicThemeVencord/refs/heads/main/background.webp") !important;
         /*Change how blurry the background is*/
     --frosted-glass-blur: 8px !important;
