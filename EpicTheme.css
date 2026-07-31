@@ -64,8 +64,8 @@
   --chat-text-muted: rgb(143, 73, 155);
 }
 /*mmmhhhh*/
-.visual-refresh {
-  --green-360: var(--status-online);
+.vc-membercount-online {
+  color: var(--status-online);
 }
 .subtitleContainer_f75fb0 {
   background: linear-gradient(to bottom,var(--custom-chat-image-tint-primary), var(--custom-chat-image-tint-secondary));
