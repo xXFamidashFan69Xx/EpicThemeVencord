@@ -49,7 +49,7 @@
   --icon-voice-muted: var(--status-danger);
   --control-connected-background-default: var(--status-online);
   --custom-idle-color: rgb(255, 172, 94);
-  --status-positive: var(var(--status-online));
+  --status-positive: var(--status-online);
     /*chat colors*/
   --text-default: rgb(254, 236, 255);
   --text-link: rgb(252, 3, 181);
