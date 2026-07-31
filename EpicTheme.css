@@ -67,11 +67,11 @@
 }
 /*----status-colors----*/
   /*ONLINE*/
-.pointerEvents__44b0c[fill="#da3e44"], svg path[fill="#45a366"], svg[fill="#45a366"] {
+.pointerEvents__44b0c[fill="#45a366"], svg path[fill="#45a366"], svg[fill="#45a366"] {
     fill: var(--status-online);
 }
   /*DND*/
-.pointerEvents__44b0c[fill="#45a366"], svg path[fill="#da3e44"], svg[fill="#da3e44"] {
+.pointerEvents__44b0c[fill="#da3e44"], svg path[fill="#da3e44"], svg[fill="#da3e44"] {
     fill: var(--status-danger);
 }
   /*IDLE*/
