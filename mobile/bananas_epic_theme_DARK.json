@@ -10,13 +10,13 @@
     "spec": 2,
     "semanticColors": {
         "BACKGROUND_BASE_LOWEST": [
-            "rgb(34, 0, 48)"
+            "rgb(6, 0, 8)"
         ],
         "BACKGROUND_BASE_LOWER": [
-            "rgb(13, 0, 18)"
+            "rgb(11, 0, 16)"
         ],
         "BACKGROUND_BASE_LOW": [
-            "rgb(12, 4, 18)"
+            "rgb(13, 5, 19)"
         ],
         "BACKGROUND_BRAND": [
             "rgb(203, 0, 156)"
