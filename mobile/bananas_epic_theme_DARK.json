@@ -1,0 +1,87 @@
+{
+    "name": "Bananas Epic Theme DARK",
+    "description": "stupid really dark purple with pink theme, background taken from Geometry Dash level «Shardscapes» by ItzKiba",
+    "authors": [
+        {
+        "name": "Banana6000",
+        "id": "980544625301414018"
+        }
+    ],
+    "spec": 2,
+    "semanticColors": {
+        "BACKGROUND_BASE_LOWEST": [
+            "rgb(34, 0, 48)"
+        ],
+        "BACKGROUND_BASE_LOWER": [
+            "rgb(42, 1, 56)"
+        ],
+        "BACKGROUND_BASE_LOW": [
+            "rgb(34, 16, 46)"
+        ],
+        "BACKGROUND_BRAND": [
+            "rgb(203, 0, 156)"
+        ],
+        "BACKGROUND_SURFACE_HIGH": [
+            "rgb(57, 21, 67)"
+        ],
+        "BG_SURFACE_OVERLAY_TMP": [
+            "rgb(34, 0, 48)"
+        ],
+        "BACKGROUND_ACCENT": [
+            "rgb(125, 0, 153)"
+        ],
+        "MESSAGE_MENTIONED_BACKGROUND_DEFAULT": [
+            "rgba(255, 145, 173, 0.1)"
+        ],
+        "MOBILE_ANDROID_BUTTON_BACKGROUND_RIPPLE": [
+            "rgba(255, 124, 224, 0.5)"
+        ],
+        "TEXT_DEFAULT": [
+            "rgb(255, 222, 244);"
+        ],
+        "TEXT_STRONG": [
+            "rgb(254, 236, 255)"
+        ],
+        "TEXT_SUBTLE": [
+            "rgb(143, 73, 155)"
+        ],
+        "TEXT_LINK": [
+            "rgb(252, 3, 181)"
+        ],
+        "TEXT_MUTED": [
+            "rgb(251, 126, 170)"
+        ],
+        "TEXT_FEEDBACK_CRITICAL": [
+            "rgb(255, 0, 132)"
+        ],
+        "TEXT_STATUS_DND": [
+            "rgb(255, 0, 132)"
+        ],
+        "REDESIGN_CHANNEL_NAME_TEXT": [
+            "rgb(255, 189, 226)"
+        ],
+        "REDESIGN_BUTTON_SECONDARY_BACKGROUND": [
+            "rgb(125, 0, 153)"
+        ],
+        "MOBILE_TEXT_HEADING_PRIMARY": [
+            "rgb(227, 137, 187)"
+        ],
+        "CARD_SECONDARY_BG": [
+            "rgb(54, 20, 62)"
+        ],
+        "BORDER_MUTED": [
+            "rgb(206, 0, 168)"
+        ]
+    },
+    "rawColors": {
+        "PLUM_10": "rgb(176, 83, 165);",
+        "PLUM_20": "rgb(42, 1, 56)",
+        "PLUM_15": "rgb(255, 116, 151)",
+        "GREEN_360": "rgb(0, 206, 165)"
+    },
+    "background": {
+        "blur": 0,
+        "url": "https://raw.githubusercontent.com/xXFamidashFan69Xx/EpicThemeVencord/refs/heads/dev-vendetta/mobile/background_dark_m.png",
+        "alpha": 1
+    }
+}
