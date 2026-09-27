@@ -149,6 +149,11 @@ div .appLauncherOnboardingCommandName_c19a55 {
     background: rgba(34, 0, 49, .1);
     backdrop-filter: blur(8px);
 }
+/*fix settings page*/
+.modalContentInner_e44912,
+.sidebar__409aa {
+    background: transparent;
+}
 /*------------------------*/
 
 /*----(SCRAPPED) make icons scare----*/
