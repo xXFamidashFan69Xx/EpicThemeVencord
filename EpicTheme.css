@@ -172,6 +172,12 @@ div .switchIndicator_a28278 {
   background: rgba(34, 0, 49, .1);
   backdrop-filter: blur(8px);
 }
+  /*Clear background fix*/
+.content_3Rvb29,
+.sidebar_cR4ic2,
+.contentHeader_3Rvb29 {
+  background: transparent;
+}
 /*------------------------*/
 
 /*----(SCRAPPED) make icons scare----*/
