@@ -64,14 +64,25 @@
 }
 
 /*----status colors----*/
-.pointerEvents__44b0c[fill="#da3e44"], .vc-platform-indicator[fill="#da3e44"] { /*DND*/
-    fill: var(--status-danger) !important;
+.pointerEvents_XpIUHy[fill = "#da3e44"],
+.vc-platform-indicator[fill = "#da3e44"] {
+  /*DND*/
+  fill: var(--status-danger) !important;
 }
-.pointerEvents__44b0c[fill="#45a366"], .vc-platform-indicator[fill="#45a366"] { /*ONLINE*/
-    fill: var(--control-connected-background-default) !important;
+.pointerEvents_XpIUHy[fill = "#45a366"],
+.vc-platform-indicator[fill = "#45a366"],
+path[fill = "#45a366"] {
+  /*ONLINE*/
+  fill: var(--control-connected-background-default) !important;
 }
-.pointerEvents__44b0c[fill="#ffc04e"], .vc-platform-indicator[fill="#ffc04e"] { /*IDLE*/
-    fill: var(--custom-idle-color) !important;
+.pointerEvents_XpIUHy[fill = "#ffc04e"],
+.vc-platform-indicator[fill = "#ffc04e"] {
+  /*IDLE*/
+  fill: var(--custom-idle-color) !important;
+}
+rect[mask = "url(#svg-mask-status-offline)"] {
+  /*OFFLINE*/
+  fill: var(--custom-offline) !important;
 }
 /*---------------------*/
 
@@ -87,34 +98,37 @@ div .appLauncherOnboardingCommandName_c19a55 {
 /*----------------------------------------------------------------------*/
 
 /*----other----*/
-.switchIndicator_a28278[fill="#5865f2"] {
-  background-color: var(--control-primary-background-default);
+.switchIndicator_a28278[fill = "#5865f2"] {
+    background-color: var(--control-primary-background-default);
 }
 .overlay_c0bea0 {
-  /*the buttons in profile thingy*/
-  background: #33133d;
+    /*the buttons in profile thingy*/
+    background: #33133d;
 }
-.chatContent_f75fb0 {
+.scrollerInner_8AE1Qq {
   /*chat background image*/
-  background-image: linear-gradient(to bottom,var(--custom-chat-image-tint-primary), var(--custom-chat-image-tint-secondary)), var(--chat-background-url);
+  background-image: linear-gradient(to bottom, var(--custom-chat-image-tint-primary), var(--custom-chat-image-tint-secondary)), var(--chat-background-url);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
 .root_bfe55a {
   /*vc background image*/
-  background-image: linear-gradient(to bottom,var(--custom-chat-image-tint-primary), var(--custom-chat-image-tint-secondary)), var(--chat-background-url);
+  background-image: linear-gradient(to bottom, var(--custom-chat-image-tint-primary), var(--custom-chat-image-tint-secondary)), var(--chat-background-url);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
+div .switchIndicator_a28278 {
+  background-color: var(--control-primary-background-default) !important;
+}
 /*-------------*/
 
 /*---custom icon----*/
-.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8 svg{
+.wrapper_JJ-hgR.selected_JJ-hgR .childWrapper_JJ-hgR svg {
   visibility: hidden;
 }
-.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8, .wrapper__6e9f8:hover .childWrapper__6e9f8{
+.wrapper_JJ-hgR.selected_JJ-hgR .childWrapper_JJ-hgR {
   background-color: rgba(0,0,0,0);
   background-size: 40px 40px;
   background-image: url("https://github.com/xXFamidashFan69Xx/EpicThemeVencord/blob/main/discord_icon.webp?raw=true");
@@ -122,19 +136,25 @@ div .appLauncherOnboardingCommandName_c19a55 {
 /*------------------*/
 
 /*----gradient border on select----*/
-.selected_f88cfd, .selectedChannel_c69b6d, .modeSelected__2ea32, .selected__91a9d, .channelTextArea_f75fb0:focus-within, .wrapper__72c38:focus-within, .active_caf372 {
-    border-radius: 8px;
-    position: relative;
+.wrapper__72c38 {
+  --custom-input-focus-border-color: rgba(0, 0, 0, 0)
 }
-.selected_f88cfd::before, .selectedChannel_c69b6d::before, .modeSelected__2ea32::before, .selected__91a9d::before, .channelTextArea_f75fb0:focus-within::before, .wrapper__72c38:focus-within::before, .active_caf372::before {
-  pointer-events: none; /*im stupid lmao*/
+.interactiveSelected_zln_tS2,
+.wrapper_TNyK-N.modeSelected_TNyK-N {
+  border-radius: 8px;
+  position: relative;
+}
+.interactiveSelected_zln_tS::before,
+.wrapper_TNyK-N.modeSelected_TNyK-N::before {
+  pointer-events: none;
   content: "";
   position: absolute;
   inset: 0;
   padding: 2px;
   background: linear-gradient(to bottom, var(--control-primary-background-default), var(--custom-control-primary-background-default-dark));
   border-radius: inherit;
-  mask: conic-gradient(#000) content-box exclude,conic-gradient(#000);;
+  mask: conic-gradient(#000) content-box exclude, conic-gradient(#000);
+  ;
 }
 /*---------------------------------*/
 
@@ -145,14 +165,11 @@ div .appLauncherOnboardingCommandName_c19a55 {
 /*------------------------------------------------*/
 
 /*----frosted glass bg----*/
-.modal_e44912, .content_e9e3ed, .contentHeader_e9e3ed, .root__49fc1, .footer__49fc1 {
-    background: rgba(34, 0, 49, .1);
-    backdrop-filter: blur(8px);
-}
-/*fix settings page*/
-.modalContentInner_e44912,
-.sidebar__409aa {
-    background: transparent;
+.modal__F9ieB,
+.modalContentInner__F9ieB,
+.root__KoJTP {
+  background: rgba(34, 0, 49, .1);
+  backdrop-filter: blur(8px);
 }
 /*------------------------*/
 
